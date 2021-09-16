@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1757786294129392880
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757786294129392881}
+  - component: {fileID: 1757786294129392878}
+  m_Layer: 0
+  m_Name: ExtraVoice
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757786294129392881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757786294129392880}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1757786294129392878
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757786294129392880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4880cca75eb984a41a18d2918da2a563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 6842f340a225cf345ac71e2760a7c775, type: 2}
+  mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+    type: 2}
+  sounds:
+  - name: Apex1
+    clip: {fileID: 8300000, guid: 23ae63d6a98a6e046b1ca7faa746d623, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex2
+    clip: {fileID: 8300000, guid: b5093d19120f22c40bbde28313921d1e, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex3
+    clip: {fileID: 8300000, guid: d1ba803a7bb13f54c844815c178506d5, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex4
+    clip: {fileID: 8300000, guid: 54f8ba4b3b01e264bb5e15931364d5c4, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex5
+    clip: {fileID: 8300000, guid: a532ddb325cb68244ab819a79df8bee4, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex6
+    clip: {fileID: 8300000, guid: 0280481bc5a47324d93393ada83e3c6a, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex7
+    clip: {fileID: 8300000, guid: 6a057592c860dbd4298b7702ce57a5ce, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex8
+    clip: {fileID: 8300000, guid: 5903ae621e6326341a2dc98ef5febf07, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex9
+    clip: {fileID: 8300000, guid: 7e03848132e8f004890566f0298a1210, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex10
+    clip: {fileID: 8300000, guid: 6c7fa50909faa8448b092082efdaf15d, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex11
+    clip: {fileID: 8300000, guid: a47f28c51027f7f4e967892960fc3509, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex12
+    clip: {fileID: 8300000, guid: 390348cffa149ba45896fb7506ba1714, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex13
+    clip: {fileID: 8300000, guid: f2c78cdc9ed77a2439a821ae8c56d013, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex14
+    clip: {fileID: 8300000, guid: 93f00d31814de5049a669332f2c04b43, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Apex16
+    clip: {fileID: 8300000, guid: b67ad438d1cbe1143b3d3a78a17d8ac2, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Odori1
+    clip: {fileID: 8300000, guid: 6f0b1634378f2cc40a0d6a6bc42c1738, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243778982144155618, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}

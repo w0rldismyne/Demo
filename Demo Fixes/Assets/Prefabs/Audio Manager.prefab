@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &748131074622991621
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 748131074622991867}
+  - component: {fileID: 2990588497773242577}
+  m_Layer: 0
+  m_Name: Audio Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &748131074622991867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748131074622991621}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2990588497773242577
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 748131074622991621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4880cca75eb984a41a18d2918da2a563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioMixer: {fileID: 24100000, guid: 6842f340a225cf345ac71e2760a7c775, type: 2}
+  mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+    type: 2}
+  sounds:
+  - name: Lost
+    clip: {fileID: 8300000, guid: 4a4068c76cef03e47bf0619e14208b1d, type: 3}
+    volume: 1
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Moon
+    clip: {fileID: 8300000, guid: 70b2ece7d6b46b4469301dcba353866c, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Lights
+    clip: {fileID: 8300000, guid: ec13aa72550c56a4780c0084c23cc724, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Voyage
+    clip: {fileID: 8300000, guid: 0f00d64032211a64a823e32ebe720764, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Yo
+    clip: {fileID: 8300000, guid: 832f74a53b3e1374fb7583acaff0eb30, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Broken
+    clip: {fileID: 8300000, guid: 159ebc7d36566e948a366503e2fca2ab, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: kv-leaf
+    clip: {fileID: 8300000, guid: 6de76122eaaca07458afb9de4eac74ea, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Intervention
+    clip: {fileID: 8300000, guid: fa65e327325d07b4e8f4d534f8c96171, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Love
+    clip: {fileID: 8300000, guid: 25991a495cca31647a030594ed1ba7f7, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: So
+    clip: {fileID: 8300000, guid: 332b1143037dff440bff941bf3018b36, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: VHS
+    clip: {fileID: 8300000, guid: 497fd14d9cca82843b3afdedac974d19, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 0}
+    source: {fileID: 0}
+  - name: Descent
+    clip: {fileID: 8300000, guid: 1f272d450fdad24469c7852eb8363985, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Primal
+    clip: {fileID: 8300000, guid: 8dbbe3e65c6639f4cb64b6e5e7d885e0, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: Undertow
+    clip: {fileID: 8300000, guid: caa89887a10fb3145b0fd91062c6b780, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: We Are One
+    clip: {fileID: 8300000, guid: 9b0b235009a519f4797f092b7dd5ba3e, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
+  - name: LucidDream
+    clip: {fileID: 8300000, guid: 9cf03659550a84943bc497cc94002559, type: 3}
+    volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 0
+    mixerGroup: {fileID: 243442115590971010, guid: 6842f340a225cf345ac71e2760a7c775,
+      type: 2}
+    source: {fileID: 0}
